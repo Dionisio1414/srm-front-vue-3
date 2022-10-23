@@ -1,0 +1,1160 @@
+{
+  "validations": {
+    "email": "Email {model} is not valid",
+    "required": "The field {property} is required",
+    "maxLength": "The {property} field must contain a maximum of {max} characters",
+    "phone": "Phone {model} is not valid",
+    "payment": "The sum of payment values ​​should not exceed 100",
+    "minPayment": "The sum of payment values should be equal to 100",
+    "maxValue": "The maximum value should be {max}",
+    "minValue": "The minimum value should be {min}"
+  },
+  "messages": {
+    "confirm": "Are you sure?",
+    "confirmChangePiNum": "Are you sure that you want to change the PI Number?",
+    "confirmChangePiDate": "Are you sure that you want to change the PI Date?",
+    "confirmChangeExporter": "Are you sure that you want to change the exporter?",
+    "confirmButtonText": "Yes, I sure",
+    "successfulLogin": "Successful login",
+    "successfulLogout": "Successful logout",
+    "changed": "Changed",
+    "skipChanges": "Changed data will be lost",
+    "removeFileConfirm": "Are you sure that you want to remove PI file ?",
+    "inDeveloping": "In developing",
+    "filterNotApplied": "Filter not applied",
+    "errorLimitMessage": "Sorry, an error has occurred. The response time has exceeded 20 minutes",
+    "searchMessage": "Enter at least 3 characters",
+    "applyLabel": "Apply",
+    "featureEnabled": "Feature enabled",
+    "featureDisabled": "Feature disabled",
+    "featureEnableIssues": "Feature enable issue",
+    "featureDisableIssues": "Feature disable issue"
+  },
+  "order": {
+    "note": {
+      "termsOfDelivery": "Terms of delivery:",
+      "designAndPacking": "Design and Packing:",
+      "engraving": "Engraving:",
+      "palletDescription": "Pallet description:",
+      "additionalTerms": "Additional terms of company Ridex GMBH:",
+
+      "title": "Additional info",
+      "deliveryPort": "Delivery port:",
+      "deliveryTime": "Delivery Time:",
+      "shippingMark": "Shipping mark:",
+      "termOfPayment": "Term of payment:",
+      "bankInformation": "Bank information:",
+      "proformaInvoice": "Proforma invoice:",
+      "factoryInformation": "Factory information:"
+    },
+    "termsDeliveryData": {
+      "country": "Country:",
+      "city": "City:",
+      "incoterms": "Incoterms:"
+    },
+    "payData": {
+      "payOnCreated": "Signing specifications to the order: ",
+      "payOnDelivered": "Arrival at the storage warehouse: ",
+      "payOnPort": "Arrival at the port of destination:",
+      "payOnProduction": "Payment upon readiness: ",
+      "paymentExchangeBl": "Sending from the port of dispatch:",
+      "paymentOnCompletion": "Payment upon sale of products:",
+      "paymentOnWarehouse": "Product shipment from the supplier's warehouse:"
+    },
+    "deliveryPortTypes": {
+      "air": "Air:",
+      "rail": "Rail:",
+      "truck": "Truck:",
+      "ocean": "Ocean:",
+      "sea+rw": "Sea+Rw:"
+    },
+    "bankInformation": {
+      "swift": "Swift:",
+      "beneficiary": "Beneficiary:",
+      "iban": "A/C:"
+    },
+    "proformaInvoice": {
+      "additionalTerms": "Additional terms:",
+      "designAndPacking": "Design and packing:",
+      "engraving": "Engraving:",
+      "incoterms": "Incoterms:"
+    },
+    "factoryInformation": {
+      "name": "Name:",
+      "jurName": "Jur name:",
+      "vatNumber": "VAT ID (TAX ID):",
+      "legalAddress": "Legal address:",
+      "city": "City:",
+      "country": "Country:",
+      "area": "Area:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "termsOfDelivery": "Terms of delivery:"
+    },
+    "labels": {
+      "buyer": "Buyer",
+      "piDate": "PI Date",
+      "piNumber": "PI Number",
+      "pltTime": "PLT MAX",
+      "shipperExporter": "Exporter",
+      "days": "days",
+      "reason": "Reason",
+      "comment": "Comment",
+      "percents": "Percents",
+      "amount": "Amount"
+    },
+    "confirm": {
+      "exporterMessage": "Do you really want to change exporter?",
+      "exporterHeader": "Change exporter",
+      "piMessage": "Do you really want to change PI {name}?",
+      "piHeader": "Change PI {name}",
+      "change": "Change",
+      "cancel": "Cancel"
+    },
+    "placeholders": {
+      "total": "TOTAL SUM",
+      "totalQty": "TOTAL QTY",
+      "piNumber": "Select the PI number",
+      "piDate": "Select the PI date",
+      "pltTime": "Select the plt time",
+      "shipperExporter": "No exporter",
+      "percents": "Percents",
+      "amount": "Amount",
+      "reason": "Select the reason"
+    },
+    "files": {
+      "title": "Order files",
+      "other": "Other",
+      "prepayment": "Payment",
+      "pi": "Added PI",
+      "generatedPi": "Generated PI",
+      "deleteHeader": "Delete Confirmation",
+      "wantDelete": "Do you want to delete this file?",
+      "successLoad": "File {fileName} load successful",
+      "successDelete": "File {fileName} deleted",
+      "successGenerateLabel": "Order {guid} label generated",
+      "errorGenerateLabel": "Order {guid} label not generated",
+      "dragAndDrop": "Select or drag and drop file here...",
+      "attachFile": "Please attach a file.",
+      "acceptLabel": "Delete",
+      "rejectLabel": "Cancel",
+      "generatePi": {
+        "header": "Regenerate the PI?",
+        "message": "Letter with the PI file will be sent to the supplier"
+      },
+      "buttons": {
+        "choose": "Choose",
+        "upload": "Upload",
+        "cancel": "Cancel",
+        "accept": "Accept",
+        "generateLabels": "Generate labels",
+        "generatePi": "Generate PI"
+      }
+    },
+    "statuses": {
+      "new": "New",
+      "draft": "Draft",
+      "sending": "Sending",
+      "sendingError": "Sending Error",
+      "waitingForApprove": "Waiting For Approve",
+      "waitingForApproveGreen": "Waiting For Approve",
+      "waitingForApproveYellow": "Waiting For Approve",
+      "waitingForApproveRed": "Waiting For Approve",
+      "rejected": "Rejected",
+      "waitingForProformaInvoice": "Waiting For Proforma Invoice",
+      "waitingForProformaInvoiceGreen": "Waiting For Proforma Invoice",
+      "waitingForProformaInvoiceYellow": "Waiting For Proforma Invoice",
+      "waitingForProformaInvoiceRed": "Waiting For Proforma Invoice",
+      "proformaInvoiceChecking": "Proforma Invoice Checking",
+      "proformaInvoiceChecked": "Proforma Invoice Checked",
+      "prepaymentExpectation": "Application for prepayment",
+      "uploadPrepaymentOrder": "Upload prepayment order",
+      "production": "Production",
+      "productionGreen": "Production",
+      "productionYellow": "Production",
+      "productionRed": "Production",
+      "productionBlack": "Production",
+      "rejectedOrder": "Rejected",
+      "executed": "Executed",
+      "test": "Test",
+      "planned": "Planned",
+      "closed": "Closed"
+    },
+    "reasons": {
+      "noResponseFromSupplier": "No response from supplier",
+      "articleListHasBeenChanged": "Article list has been changed",
+      "priceChange": "Price change",
+      "changesInMinOrderQuantity": "Changes in minimum order quantity",
+      "changeOfProductionTerm": "Change of production term",
+      "incorrectLegalInformation": "Incorrect legal information",
+      "lackOfProductionCapacity": "Lack of production capacity",
+      "otherReason": "Other reason",
+      "noResponseFromSupplierOrder": "No response from supplier",
+      "cancellationOfTheOrder": "Cancellation of the order",
+      "noArticles": "No articles"
+    },
+    "statusesDescription": {
+      "new": "Order was created",
+      "sending": "Sending order creation notification",
+      "sendingError": "An error occurred while sending the email automatically. Contact the supplier yourself",
+      "waitingForApprove": "We are waiting for confirmation of the order from the supplier",
+      "waitingForApproveGreen": "We are waiting for confirmation of the order from the supplier",
+      "waitingForApproveYellow": "We are waiting for confirmation of the order more than 24 hours",
+      "waitingForApproveRed": "We are waiting for confirmation of the order more than 28 hours. Contact the supplier yourself",
+      "waitingForProformaInvoice": "We are waiting for the supplier to upload the signed PI",
+      "waitingForProformaInvoiceGreen": "We are waiting for the supplier to upload the signed PI",
+      "waitingForProformaInvoiceYellow": "A reminder email is sent to supplier",
+      "waitingForProformaInvoiceRed": "We are waiting for PI from the supplier, but PI has not been uploaded for 12 hours or your PI has not been accepted because it contains an error",
+      "proformaInvoiceChecking": "Check PI for consistency with the original order",
+      "proformaInvoiceChecked": "PI verified",
+      "prepaymentExpectation": "Check and send a request for payment to the accounting department. After payment, attach the payment slip to the order",
+      "production": "All conditions for the start of production have been met. Production has begun",
+      "rejected": "The order was canceled. Please contact supplier to clarify the reasons",
+      "uploadPrepaymentOrder": "Receive a prepayment order from the accounting department and attach it to the draft to continue working with the order",
+      "productionGreen": "The order does not require additional intervention",
+      "productionYellow": "Pay attention to the order",
+      "productionRed": "Contact supplier for cargo ready date",
+      "productionBlack": "Problem order",
+      "rejectedOrder": "The order was canceled by this reason:",
+      "executed": "Order produced in full volume",
+      "test": "This draft for testing",
+      "prepaymentExpectation1": "You confirm the request for prepayment. After that, it will be sent to the accounting department",
+      "prepaymentExpectation2": "Order No. {orderNumber} requires an advance payment of {percent}%, amount = {amount}",
+      "planned": "Forcast was loaded. Check the data",
+      "closed": "Order done"
+    },
+    "commentBlock": {
+      "rejected": {
+        "openPopupButtonText": "Contacted the supplier",
+        "popupPlaceholder": "Describe the reason why the plant refused to fulfill the order",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupThemeSelector": "Describe the reason why the plant refused to fulfill the order",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm"
+      }
+    },
+    "statusesScenario": {
+      "new": {
+        "rejected": "Reject",
+        "popupPlaceholder": "Please tell us the reason for the cancellation",
+        "popupTheme": "By this action you will cancel the order offered to you",
+        "popupCancelTitle": "Continue working",
+        "popupOkTitle": "Reject order"
+      },
+      "waitingForApprove": {
+        "waitingForProformaInvoiceGreen": "Confirm",
+        "rejected": "Reject",
+        "popupPlaceholder": "Describe the reason why you refused to fulfill the order",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupCancelTitle": "Cancel",
+        "popupWaitingPiTheme": "You confirm the order offered to you. Please do this only if you are ready to complete it completely in accordance with the conditions described in it",
+        "popupWaitingPiPlaceholder": "Optionally, you can leave a comment",
+        "popupWaitingPiCancelTitle": "Cancel",
+        "popupWaitingPiApproveTitle": "Confirm order",
+        "popupOkTitle": "Confirm"
+      },
+      "sendingError": {
+        "waitingForApproveGreen": "Draft sent",
+        "rejected": "Reject",
+        "popupPlaceholder": "Describe the reason why you refused to fulfill the order",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm"
+      },
+      "waitingForProformaInvoice": {
+        "proformaInvoiceChecking": "Upload PI",
+        "rejected": "Reject",
+        "popupPlaceholder": "Describe the reason why you refused to fulfill the order",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm",
+        "popupPiCheckingPlaceholder": "Please provide a reason why you are uploading PI instead of a supplier",
+        "popupPiCheckingTheme": "Please attach a file",
+        "popupPiCheckingCancelTitle": "Cancel",
+        "piUploadTitle": "PI Upload"
+      },
+      "proformaInvoiceChecking": {
+        "proformaInvoiceChecked": "Pi Correct",
+        "waitingForProformaInvoiceRed": "Pi Incorrect"
+      },
+      "proformaInvoiceChecked": {
+        "prepaymentExpectation": "Prepayment Expectation"
+      },
+      "prepaymentExpectation": {
+        "production": "Production"
+      },
+      "production": {
+        "rejectedOrder": "Reject",
+        "executed": "Order is executed",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupPlaceholder": "Describe the reason why you refused to fulfill the order",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm"
+      },
+      "uploadPrepaymentOrder": {
+        "rejected": "Reject draft",
+        "popupPlaceholder": "Please tell us the reason for the cancellation instead of the supplier",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupCancelTitle": "Continue working",
+        "popupOkTitle": "Reject order"
+      },
+      "rejectedOrder": {
+        "openPopupButtonText": "Return to Production",
+        "popupTheme": "Return the order to Production?",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm"
+      },
+      "planned": {
+        "new": "Approve",
+        "rejected": "Reject",
+        "popupPlaceholder": "Describe the reason why you refused to fulfill the order",
+        "popupTheme": "Specify the reasons for refusal",
+        "popupCancelTitle": "Cancel",
+        "popupWaitingPiTheme": "You confirm the order offered to you. Please do this only if you are ready to complete it completely in accordance with the conditions described in it",
+        "popupWaitingPiPlaceholder": "Optionally, you can leave a comment",
+        "popupWaitingPiCancelTitle": "Cancel",
+        "popupWaitingPiApproveTitle": "Confirm order",
+        "popupOkTitle": "Confirm"
+      },
+      "executed": {
+        "closed": "Order is closed",
+        "popupTheme": "Close the order?",
+        "popupCancelTitle": "Cancel",
+        "popupOkTitle": "Confirm"
+      }
+    },
+    "messages": {
+      "commentSuccess": "Comment set successfully",
+      "statusChangeSuccess": "Status changed successfully",
+      "fileLoad": "File {name} load",
+      "copyFactory": "Copy supplier name",
+      "copyOrderNumber": "Copy order number",
+      "copyPiNumber": "Copy pi number",
+      "copySupplyNumber": "Copy supply number",
+      "orderHasSupplies": "Can't change order status to Draft or Reject, the order has supplies",
+      "orderInSwh": "Cannot move the Order to the Closed status, because the articles from the Order are in the SWH"
+    },
+    "titles": {
+      "history": "History",
+      "statusHistory": "Status",
+      "changesHistory": "Change order",
+      "changesProductHistory": "Change products",
+      "mails": "Mails",
+      "orderNotChanged": "Order data have not changed",
+      "mailsNotSent": "Letters were not sent",
+      "productsNotChanged": "Products data have not changed",
+      "commentModal": "Comment",
+      "rollbackStatus": "Rollback status",
+      "confirmationExecuted": "Confirmation executed",
+      "orderClosingConformation": "Order closing confirmation",
+      "attachOrder": "Attach order",
+      "moveToProduction": "Move to production",
+      "article": "Article {guid}"
+    },
+    "expectation": {
+      "confirm": "Confirm application",
+      "change": "Change prepayment terms",
+      "cancelChange": "Cancel",
+      "confirmChange": "Confirm prepayment change",
+      "confirmDesc": "You confirm the request for prepayment. After that, it will be sent to the accounting department",
+      "confirmBody": "Order No. {orderNumber} requires an advance payment of {percents}%, amount = {amount}",
+      "changeDesc": "You are about to change the terms of the prepayment. Make sure they are approved by the supplier",
+      "changeBody": "Order No. {orderNumber}, Total amount {orderSum}",
+      "header": "Overpayment detected",
+      "message": "Please create a request for payment through Support team",
+      "acceptLabel": "Confirm",
+      "rejectLabel": "Cancel"
+    },
+    "changesKeys": {
+      "max_lead_time": "PLT MAX",
+      "shipper_exporter": "Exporter",
+      "legal_address": "Legal address",
+      "additional_terms_of_company": "Additional terms",
+      "address": "Address",
+      "bank_iban": "IBAN",
+      "bank_recipient": "Recipient",
+      "bank_swift_code": "SWIFT",
+      "city": "City",
+      "design_and_packing": "Design and packing",
+      "engraving": "Engraving",
+      "general_phone": "Phone",
+      "incoterm": "Incoterm",
+      "jur_name": "Jur name",
+      "pay_on_created": "Signing specifications to the order",
+      "pay_on_production": "Payment after readiness",
+      "pay_on_delivered": "Product shipment from the supplier's warehouse",
+      "pay_on_port": "Sending from the port of dispatch",
+      "payment_exchange_bl": "Arrival at the port of destination",
+      "payment_on_warehouse": "Arrival at the storage warehouse",
+      "payment_on_completion": "Payment after sale of products",
+      "delay_exchange_bl": "Deferment to arrival at the port of destination",
+      "delay_on_completion": "Deferment to payment after sale of products",
+      "delay_on_created": "Deferment to signing specifications to the order",
+      "delay_on_delivered": "Deferment to product shipment from the supplier's warehouse",
+      "delay_on_port": "Deferment to sending from the port of dispatch",
+      "delay_on_production": "Deferment to payment after readiness",
+      "delay_on_warehouse": "Deferment to arrival at the storage warehouse",
+      "vat_number": "VAT ID (TAX ID)",
+      "aws_country_id": "Country id (AWS)",
+      "country_name": "Country",
+      "pi_date": "PI date",
+      "pi_number": "PI number",
+      "port_of_loadings": "Port of loading"
+    },
+    "productsChangesKeys": {
+      "article_id": "Article (ID)",
+      "tecdoc_id": "Tecdoc (ID)",
+      "generic_article_id": "Generic article (ID)",
+      "brand_no": "Brand (NO)",
+      "article_no": "Article (NO)",
+      "name": "Name",
+      "fid": "FID",
+      "brand_name": "Brand",
+      "comment": "Comment",
+      "emark_number": "Emark number",
+      "emark_country": "Emark country",
+      "minimal_order_quantity": "Minimal order quantity",
+      "product_plan_id": "Product plan id",
+      "category_name_ru": "Category name (RU)",
+      "category_name_en": "Category name (EN)",
+      "category_name_de": "Category name (DE)",
+      "quantity": "Quantity",
+      "price_usd": "Price, USD",
+      "price_eur": "Price, EUR",
+      "deleted_at": "Article was deleted"
+    },
+    "mailsKeys": {
+      "factoryNewOrder": "<b>New order</b> letter was sent",
+      "factoryWaitingOrderConfirmation": "<b>Waiting for order confirmation</b> letter was sent",
+      "factoryWaitingOrderApprove": "<b>Waiting for order approve</b> letter was sent",
+      "factoryPiIncorrect": "<b>PI is incorrect</b> letter was sent",
+      "factoryWaitingPi": "<b>Waiting for Proforma Invoice</b> letter was sent",
+      "factoryPiChecked": "<b>Proforma invoice checked</b> letter was sent",
+      "factoryProductionStarted": "<b>Production started</b> letter was sent",
+      "factoryOrderRejected": "<b>Order rejected</b> letter was sent",
+      "factoryHalfPlt": "<b>Less than half of the PLT is left to complete the order</b> letter was sent",
+      "factoryTimeAlmostGone": "<b>The time for completion of orders is almost gone</b> letter was sent",
+      "factoryOrderDetails": "<b>Order details</b> letter was sent",
+      "factoryPi": "<b>PI has been changed</b> letter was sent",
+      "piChanged": "<b>PI has been changed</b> letter was sent"
+    },
+    "fileStatus": {
+      "order_pi": {
+        "generating": "PI for order {number} are being generated now",
+        "generated": "PI for order {number} generated successfully",
+        "error": "Can`t generate PI for order {number}"
+      },
+      "order_label": {
+        "generating": "Labels for order {number} are being generated now",
+        "generated": "Labels for order {number} generated successfully",
+        "error": "Can`t generate labels for order {number}"
+      }
+    },
+    "changeMessage": "{key} was changed from <b>{previousValue}</b> to <b>{currentValue}</b>",
+    "changePortMessage": "{key} '{type}' was changed from <b>{previousValue}</b> to <b>{currentValue}</b>",
+    "notFound": "No product found.",
+    "editData": "Edit order data",
+    "cancelEditData": "Cancel editing data",
+    "saveData": "Save order data",
+    "rollback": {
+      "header": "Status change",
+      "ok": "Rollback status",
+      "cancel": "Continue working",
+      "message": "Do you really want to go back to the previous status?"
+    },
+    "returnBack": "Return back",
+    "errorTitle": "Error when load order",
+    "errorDescriptionWithout": "Order not found",
+    "errorDescription": "Order with number: {number} not found",
+    "deliveryTimeDescription": "Within {maxLeadTime} calendar days after Proforma Invoice approval",
+    "palletDescription": "Each pallet must be reinforced with stiffening corners for protection of the items and stability on a vessel. If gross weight pallet more 400 kg must use wooden corners, if weight pallet less 400 kg may use usual stiffening corners from strong cardboard with pallet labels",
+    "validationError": "Fill in all required fields (highlighted in red)",
+    "saveDataHeader": "Save data order",
+    "saveDataMessage": "Save order data? In this case Proforma Invoice will be updated",
+    "saveDataAcceptLabel": "Yes",
+    "saveDataRejectLabel": "No",
+    "deleteProductMessage": "Are you sure want to remove the product?",
+    "deleteProductHeader": "Deleting a product",
+    "dataSaved": "Order data updated successfully",
+    "productsSaved": "Products data updated successfully",
+    "productsDeleted": "Products deleted successfully",
+    "piGenerated": "Order pi generated successfully",
+    "defermentsLabel": "Deferments:"
+  },
+  "orders": {
+    "table": {
+      "supplier": "Supplier",
+      "order": "Order",
+      "piNumber": "PI number",
+      "piDate": "PI Date",
+      "responsible": "Responsible",
+      "company": "Company",
+      "eped": "EPED",
+      "category": "Category",
+      "articles": "Articles",
+      "pieces": "Pieces",
+      "ready": "Ready",
+      "sum": "Sum",
+      "status": "Status",
+      "created": "Created"
+    },
+    "titles": {
+      "orders-list": "Orders",
+      "drafts-list": "Drafts",
+      "planned-list": "Planned",
+      "order": "Order #{number}",
+      "orderDivider": "Order",
+      "draft": "Draft",
+      "planned": "Planned",
+      "progress": "{name} on progress",
+      "attention": "{name} need attention",
+      "delayed": "{name} delayed",
+      "good": "{name} good now",
+      "closed": "{name} closed"
+    },
+    "actions": {
+      "reject": {
+        "popupHeader": "Specify the reasons for refusal",
+        "popupConfirm": "Confirm",
+        "popupCancel": "Cancel",
+        "rejectLabel": "Reject",
+        "commentPlaceholder": "Describe the reason why you refused to fulfill the order"
+      },
+      "new": {
+        "newLabel": "New",
+        "leaveMessage": "Selected orders will be changed to status \"new\""
+      },
+      "successMessage": "Status changed"
+    },
+    "noFound": "No orders found.",
+    "loading": "Loading orders data. Please wait.",
+    "responsibleChanged": "The responsible has been changed",
+    "leaveMessage": "Changed data will be lost",
+    "leaveHeader": "Are you sure?",
+    "leaveAccept": "Yes, I sure",
+    "leaveReject": "Cancel",
+    "noOrdersMessage": "There are no orders in the Production status, show other orders?",
+    "noOrdersHeader": "No orders",
+    "noOrdersAccept": "Confirm",
+    "noOrdersReject": "Cancel"
+  },
+  "forwarder": {
+    "table": {
+      "name": "Name",
+      "legalAddress": "Legal address",
+      "countries": "Countries",
+      "ports": "Points of landing",
+      "ways": "Ways",
+      "phone": "Phone",
+      "deletedAt": "Deletion date"
+    },
+    "noFound": "No forwarders found.",
+    "loading": "Loading forwarders data. Please wait.",
+    "buttons": {
+      "addForwarder": "Add forwarder",
+      "save": "Save",
+      "cancel": "Cancel",
+      "removeContact": "Remove contact",
+      "removeBankInfo": "Remove info",
+      "addPerson": "Add person info",
+      "saveChanges": "Save changes",
+      "addLegalInfo": "Add legal info",
+      "deleted": "Deleted",
+      "showDeleted": "Show deleted"
+    },
+    "confirmDeletion": {
+      "header": "Deleting a forwarder",
+      "message": "Are you sure you want to delete the forwarder?",
+      "acceptLabel": "Delete",
+      "rejectLabel": "Cancel"
+    },
+    "titles": {
+      "legalInfo": "Legal information",
+      "contactInfo": "Contact information",
+      "baseInfo": "Base information",
+      "bankDetails": "Bank details",
+      "editBaseInfo": "Edit base information",
+      "serviceInfo": "Service information",
+      "forwarder": "Forwarders",
+      "editForwarder": "Edit forwarder",
+      "createForwarder": "Create forwarder"
+    },
+    "info": {
+      "name": "Name",
+      "isActive": "Active",
+      "reason": "Reason",
+      "reasonComment": "Reason comment"
+    },
+    "service": {
+      "ways": "Ways",
+      "countries": "Countries",
+      "areas": "Areas",
+      "ports": "Point of loading",
+      "reasonComment": "Reason comment"
+    },
+    "contact": {
+      "website": "Website",
+      "phone": "Phone",
+      "email": "E-mail",
+      "person": {
+        "name": "Name",
+        "position": "Position",
+        "phone": "Phone",
+        "email": "E-mail",
+        "country": "Country",
+        "isHead": "Head"
+      }
+    },
+    "legal": {
+      "legalName": "Legal name",
+      "primary": "Primary",
+      "isActive": "Active",
+      "idLegal": "ID legal",
+      "legalAddress": "Legal address",
+      "zipCode": "ZIP code",
+      "bank": {
+        "thePayee": "The payee",
+        "vatId": "VAT ID",
+        "iban": "IBAN/KontoNr",
+        "swiftCode": "SWIFTCode (BIC)"
+      }
+    },
+    "reasons": {
+      "notEnoughCapacity": "Not enough capacity in the region",
+      "unreasonablyHighPrices": "Unreasonably high prices",
+      "companyIsClosed": "Company is closed",
+      "other": "Other"
+    }
+  },
+  "login": {
+    "title": "Private Brands SRM System",
+    "confirm": "Confirm",
+    "fields": {
+      "user": "Username",
+      "password": "Password"
+    }
+  },
+  "shipments": {
+    "titles": {
+      "shipments": "Shipments"
+    },
+    "table": {
+      "ways": "Ways",
+      "status": "Status",
+      "supplier": "Supplier",
+      "forwarder": "Forwarder",
+      "incoterm": "Incoterm",
+      "ports": "Point of loading",
+      "weight": "Weight",
+      "volume": "Volume",
+      "tu": "TU",
+      "size": "Size",
+      "amount": "TU amount",
+      "crd": "CRD"
+    },
+    "noFound": "No shipments found.",
+    "loading": "Loading shipments data. Please wait.",
+    "buttons": {
+      "new": "New shipment",
+      "save": "Save",
+      "close": "Close",
+      "moveToActive": "Active"
+    },
+    "messages": {
+      "activeHeader": "Move to active confirmation",
+      "activeConfirm": "Do you want to move this shipment to active?",
+      "movedToActive": "Shipment moved to active",
+      "created": "Shipment create successfully",
+      "canceledHeader": "Move to canceled confirmation",
+      "canceledConfirm": "Do you want to move this shipment to canceled?",
+      "movedToCanceled": "Shipment moved to canceled"
+    }
+  },
+  "supplier": {
+    "title": "Supplier: ",
+    "tabs": {
+      "orders": "Orders list",
+      "swh": "SWH",
+      "supplies": "Supplies",
+      "shipments": "Shipments"
+    },
+    "table": {
+      "order": "Order",
+      "piNumber": "PI number",
+      "piDate": "PI Date",
+      "created": "Created",
+      "responsible": "Responsible",
+      "company": "Brand",
+      "eped": "EPED",
+      "category": "Category",
+      "articles": "Articles",
+      "pieces": "Pieces",
+      "ready": "Ready",
+      "sum": "Sum",
+      "status": "Status"
+    },
+    "innerTable": {
+      "nr": "NR",
+      "description": "Description",
+      "comment": "Comment",
+      "category": "Category",
+      "brand": "Brand",
+      "articleNr": "Article NR",
+      "fid": "FID",
+      "qty": "QTY, PCS",
+      "priceUsd": "Price, USD",
+      "priceEur": "Price, EUR",
+      "amount": "Amount",
+      "moq": "MOQ",
+      "oem": "OEM",
+      "emn": "E-mark(number)",
+      "ec": "E-mark(country)",
+      "pcs": "PCS/BOX"
+    },
+    "swhTable": {
+      "order": "Order #",
+      "article": "Article ID",
+      "description": "Article No",
+      "category": "Category",
+      "amount": "Amount",
+      "price": "Price, USD",
+      "moq": "MOQ",
+      "qty": "QTY/ALL"
+    },
+    "suppliesTable": {
+      "supply": "Supply #",
+      "shipment": "Shipment",
+      "crd": "CRD",
+      "status": "Status",
+      "photos": "Photos",
+      "files": "Files",
+      "price": "Price, usd",
+      "amount": "Amount",
+      "ordersSrm": "Orders SRM"
+    },
+    "messages": {
+      "deleteSwhProductMessage": "Are you sure want to remove the swh product?",
+      "deleteSwhProductHeader": "Deleting a swh product",
+      "saveDataAcceptLabel": "Yes",
+      "saveDataRejectLabel": "No",
+      "successfullyDeleteMessage": "Swh product {orderNumber} deleted"
+    },
+    "moveToSwh": "Move to SWH",
+    "moveToSwhMessage": "Product moved to SWH",
+    "moveToSupplies": "Move to supplies",
+    "moveToSuppliesMessage": "Supply {supplyNumber} created",
+    "maxQuantity": "Maximum available number of products {quantity}",
+    "noFound": "No orders found.",
+    "productsNoFound": "No products found.",
+    "loading": "Loading orders data. Please wait.",
+    "reliableMark": "Reliable supplier"
+  },
+  "directories": {
+    "tab": {
+      "shipments": "Shipments",
+      "general": "General",
+      "forwarder": "Forwarders",
+      "port": "Port",
+      "featureFlags": "Feature flags"
+    },
+    "innerTab": {
+      "countries": "Countries",
+      "exporters": "Exporters",
+      "ports": "Ports",
+      "ways": "Ways",
+      "reasons": "Reason for archiving",
+      "loadingTypes": "Loading types",
+      "transportUnits": "TU Types",
+      "sizes": "TU Sizes",
+      "statuses": "Shipment statuses",
+      "featureFlags": "Feature flags"
+    },
+    "titles": {
+      "directories-general-countries": "Countries",
+      "directories-general-exporters": "Exporters",
+      "directories-forwarder-reasons": "Reason for archiving",
+      "directories-shipments-items": "Ports",
+      "directories-shipments-ways": "Ways",
+      "directories-shipments-loading-types": "Loading types",
+      "directories-shipments-transport-units": "TU Types",
+      "directories-shipments-sizes": "TU Sizes",
+      "directories-shipments-statuses": "Shipment statuses",
+      "directories-feature-flags-items": "Feature flags"
+    },
+    "table": {
+      "id": "ID",
+      "country": "Country",
+      "exporter": "Exporter",
+      "reason": "Reason",
+      "countryName": "Country name",
+      "port": "Port",
+      "way": "Way",
+      "loadingType": "Loading type",
+      "transportUnits": "Transport units",
+      "size": "Size",
+      "status": "Status",
+      "feature": "Feature",
+      "description": "Description",
+      "active": "Active"
+    },
+    "settings": {
+      "ru": "Russian",
+      "en": "English",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "labels": {
+      "save": "Save",
+      "name": "Name",
+      "email": "Email",
+      "password": "New password",
+      "mode": "Visual mode",
+      "language": "Language"
+    },
+    "buttons": {
+      "newCountry": "New Country",
+      "newExporter": "New Exporter",
+      "newLoadingType": "New loading type",
+      "newTUType": "New TU type",
+      "newTUSize": "New TU size",
+      "newStatus": "New status",
+      "newWay": "New Way",
+      "newReason": "New Reason"
+    },
+    "settingsButton": "Personal settings",
+    "noFound": "No data found.",
+    "loading": "Loading data. Please wait."
+  },
+  "dashboard": {
+    "orderStatuses": "Order statuses",
+    "factoryStatuses": "Factory statuses",
+    "membersStatuses": "Employee statuses",
+    "notAvailable": "Data not available",
+    "orderPerStatuses": "Order per statuses",
+    "statuses": {
+      "productionGreen": "Low",
+      "productionYellow": "Middle",
+      "productionRed": "High",
+      "productionBlack": "Very high"
+    }
+  },
+  "price": {
+    "titles": {
+      "price": "Price"
+    },
+    "tabs": {
+      "general": "Prices list",
+      "create": "Create Price"
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "add": "Add price",
+      "delete": "Delete"
+    },
+    "messages": {
+      "success": "Forwarder price saved successfully",
+      "validationError": "Fill in all required fields (highlighted in red)",
+      "dateChanged": "Relevant dates changed successfully",
+      "movedToActive": "Forwarder price moved to active",
+      "movedToArchive": "Forwarder price moved to archive"
+    },
+    "labels": {
+      "active": "Active",
+      "reason": "Reason",
+      "forwarder": "Forwarder",
+      "way": "Way",
+      "relevantDates": "Relevant Dates",
+      "tariff": "Tariff",
+      "loadingType": "Loading type",
+      "reasonComment": "Reason comment"
+    },
+    "table": {
+      "expense": "Expense",
+      "currency": "Currency",
+      "forwarder": "Forwarder",
+      "ways": "Ways",
+      "tariff": "Tariff",
+      "active": "Active",
+      "relevantDates": "Relevant Dates"
+    },
+    "reasons": {
+      "priceIsNotCorrect": "Price is not correct",
+      "irrelevantDates": "Relevant period is over",
+      "other": "Other"
+    },
+    "notFound": "Prices not found",
+    "loading": "Loading prices data. Please wait"
+  },
+  "placeholders": {
+    "way": "Select the way",
+    "supplier": "Select the supplier",
+    "forwarder": "Select the forwarder",
+    "incoterm": "Select the incoterm",
+    "portOfLoading": "Select the point of loading",
+    "weight": "Weight",
+    "volume": "Volume",
+    "tu": "Select the transport unit",
+    "size": "Select the size",
+    "tuAmount": "TU amount",
+    "date": "Select the date",
+    "columns": "Select the columns",
+    "search": "Enter search string",
+    "status": "Select the status",
+    "brand": "Select the brand",
+    "category": "Select the category",
+    "responsible": "Select the responsible",
+    "reason": "Select the reason",
+    "fromDate": "Select the from date",
+    "toDate": "Select the to date",
+    "tariff": "Select the tariff",
+    "loadingType": "Select the loading type",
+    "reasonComment": "Write a reason",
+    "units": "Select the units",
+    "expense": "Select the expense",
+    "currency": "Select the currency",
+    "dateRelevant": "Select the relevant type"
+  },
+  "errorPage": {
+    "title": "404. Page not found",
+    "description": "It may have been moved or you entered the wrong page address",
+    "button": "Back on main"
+  },
+  "logistics": {
+    "tabs": {
+      "shipments": "Shipments",
+      "price": "Price",
+      "supplies": "Supplies list",
+      "activeShipments": "Active",
+      "preBookingShipments": "Pre-booking"
+    }
+  },
+  "navigation": {
+    "orders": "Orders",
+    "drafts": "Drafts",
+    "forwarders": "Forwarders",
+    "logistics": "Logistics",
+    "settings": "Settings",
+    "directoriesAndSettings": "Directory & Settings"
+  },
+  "supplies": {
+    "titles": {
+      "supply": "Supply #{number}",
+      "articles": "Articles",
+      "supplies": "Supplies list"
+    },
+    "noFound": "No supply products found.",
+    "loading": "Loading supply products data. Please wait.",
+    "addToSupply": "Add to supply",
+    "articlesListTable": {
+      "order": "Order #",
+      "article": "Article ID",
+      "description": "Article No",
+      "category": "Category ID",
+      "amount": "Amount",
+      "unitPrice": "Unit price",
+      "fid": "FID",
+      "moq": "MOQ"
+    },
+    "suppliesTable": {
+      "supply": "Supply #",
+      "supplier": "Supplier",
+      "crd": "CRD",
+      "creationDate": "Creation date",
+      "totalQty": "Total QTY",
+      "totalSku": "Total SKU",
+      "indicators": "Indicators",
+      "ordersSrm": "Orders SRM",
+      "status": "Status"
+    },
+    "messages": {
+      "productDeleteMessage": "Product removed successfully",
+      "saveDataAcceptLabel": "Yes",
+      "saveDataRejectLabel": "No",
+      "deleteProductMessage": "Are you sure want to remove the product?",
+      "deleteProductHeader": "Deleting a product",
+      "productAddMessage": "Supply products created."
+    }
+  },
+  "supply": {
+    "supplyLinks": {
+      "ordersIncluded": "Orders included",
+      "srm": "SRM"
+    },
+    "files": {
+      "title": "Supply files",
+      "ci": "CI",
+      "pl": "PL",
+      "hbl": "HBL",
+      "photo": "Photo",
+      "pay": "Pay",
+      "reliable": "Reliable supplier. Photo verification is not required."
+    },
+    "statusHistory": {
+      "title": "Status history",
+      "statuses": {
+        "draft": "Draft",
+        "readyToShip": "Ready to ship",
+        "canceled": "Canceled",
+        "new": "New",
+        "shipApproved": "Ship approved",
+        "onTheWay": "On the way",
+        "inTheWarehouse": "In the warehouse",
+        "onTheShelves": "On the shelves",
+        "done": "Done"
+      },
+      "descriptions": {
+        "draft": "Supply has a draft, there is no same similar supply in AWS",
+        "canceled": "Final negative status",
+        "new": "The supply is full-fledged, is taken to work and is not draft anymore. There is a similar supply in AWS",
+        "shipApproved": "Privat Brands approved supply and readiness to receive it",
+        "onTheWay": "Supply loaded on board ship and in transit",
+        "inTheWarehouse": "Successful arrival of the supply in full at the warehouse",
+        "onTheShelves": "The product is unpacked and ready for sale. All articles from delivery are switched to «Available for sale» status",
+        "done": "Final positive status"
+      },
+      "messages": {
+        "statusChangeSuccess": "Status changed successfully"
+      },
+      "statusesScenario": {
+        "canceled": {
+          "button": "Cancel",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCanceledMessage": "All articles will return to SWH. Cancel the supply?",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "new": {
+          "button": "New",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "shipApproved": {
+          "button": "Ship approved",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "onTheWay": {
+          "button": "On the way",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "inTheWarehouse": {
+          "button": "In the warehouse",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "onTheShelves": {
+          "button": "On the shelves",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        },
+        "done": {
+          "button": "Done",
+          "popupHeader": "Move to {status}",
+          "popupMessage": "The supply will be moved to status {status}",
+          "popupCancel": "Cancel",
+          "popupOk": "Confirm"
+        }
+      }
+    },
+    "supplyInfo": {
+      "totalQty": "QTY",
+      "totalSku": "SKU",
+      "payments": "Payments",
+      "crd": "CRD",
+      "supplyCrdUpdated": "Supply cargo ready date updated"
+    }
+  },
+  "parsing": {
+    "titles": {
+      "main": "Compare file and order",
+      "compare": "Compare",
+      "supply": "Supply creation",
+      "supplyUpdate": "Supply update"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "compare": "Compare",
+      "downloadCSV": "Download csv file",
+      "downloadXLSX": "Download xlsx file",
+      "createSupply": "Create a supply",
+      "addSupply": "Add articles from file",
+      "replaceProducts": "Replace products",
+      "addProducts": "Add products"
+    },
+    "labels": {
+      "total": "Total (example: AA25)",
+      "firstRow": "First row",
+      "lastRow": "Last row",
+      "oem": "OEM",
+      "articleNo": "Article number",
+      "fid": "FID",
+      "price": "Price",
+      "quantity": "Quantity",
+      "orderNo": "Order NO",
+      "supplier": "Supplier",
+      "fileType": "File type"
+    },
+    "placeholders": {
+      "total": "Select total price cell",
+      "firstRow": "Select first row",
+      "lastRow": "Select last row",
+      "oem": "Select OEM column",
+      "articleNo": "Select article number column",
+      "fid": "Select FID column",
+      "price": "Select price column",
+      "quantity": "Select quantity column",
+      "orderNo": "Select order NO",
+      "fileType": "Select file type"
+    },
+    "table": {
+      "product": "Product",
+      "articleNumber": "Article number",
+      "originalOrder": "Original order",
+      "supply": "Supply {number}",
+      "filesData": "Files data",
+      "file": "File {name}",
+      "qty": "QTY",
+      "price": "Price",
+      "fid": "FID",
+      "total": "Full total sum:"
+    },
+    "successMessage": "Supply has been successfully created",
+    "successUpdateMessage": "Supply has been successfully updated",
+    "errorMessage": "Can not create a supply. Please, check the file",
+    "errorUpdateMessage": "Can not update a supply. Please, check the file",
+    "haveNotDifferences": "Signed PI-file {name} is the same as order {number} in SRM",
+    "haveNotSupplyDifferences": "Signed xls-file {name} is the same as supply {number} in SRM",
+    "haveDifferences": "Signed PI-file {name} and order {number} in SRM have differences. See details below",
+    "haveSupplyDifferences": "Signed xls-file {name} and supply {number} in SRM have differences. See details below",
+    "haveError": "A system error occurred while comparing PI file {name} and order {number} in SRM"
+  },
+  "supplierMails": {
+    "title": "Supplier mails",
+    "table": {
+      "name": "Name",
+      "id": "ID",
+      "email": "General email",
+      "mails": "Mails"
+    },
+    "noFound": "Supplier mails not found",
+    "messages": {
+      "enabled": "Mails sending turn on",
+      "disabled": "Mails sending turn of",
+      "enableIssues": "Mails sending enable error",
+      "disableIssues": "Mails sending disable error"
+    }
+  }
+}

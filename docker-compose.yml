@@ -1,0 +1,22 @@
+version: '3.5'
+services:
+
+  app:
+    container_name: srm-app
+    build:
+      context: .
+      target: base
+    tty: true
+    ports:
+      - "49153:8000"
+    volumes:
+      - ./:/app
+    networks:
+      - app-network 
+    environment:
+      HOST: 0.0.0.0
+
+networks:
+  app-network:
+    external: true
+    driver: bridge

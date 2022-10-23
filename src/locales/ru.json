@@ -1,0 +1,1157 @@
+{
+  "validations": {
+    "email": "Email {model} не валидный",
+    "required": "Поле {property} обязательное",
+    "maxLength": "Поле {property} должно содержать максимум {max} символов",
+    "phone": "Номер телефона {model} не валидный",
+    "payment": "Сумма значений оплаты не должна превышать 100",
+    "minPayment": "Сумма значений оплаты должна быть равна 100",
+    "maxValue": "Максимальное значение должно быть {max}",
+    "minValue": "Минимальное значение должно быть {min}"
+  },
+  "messages": {
+    "confirm": "Уверен?",
+    "confirmChangePiNum": "Изменить номер PI?",
+    "confirmChangePiDate": "Изменить дату PI?",
+    "confirmChangeExporter": "Изменить экспортера?",
+    "confirmButtonText": "Да",
+    "successfulLogin": "Успешный вход в систему",
+    "changed": "Изменено",
+    "skipChanges": "Измененные данные будет потеряны",
+    "removeFileConfirm": "Вы уверены что хотите ужалить PI файл ?",
+    "inDeveloping": "В разработке",
+    "filterNotApplied": "Фильтр не применен",
+    "errorLimitMessage": "Извините, произошла ошибка. Время ответа превысило 20 минут",
+    "searchMessage": "Введите минимум 3 символа",
+    "applyLabel": "Применить",
+    "featureEnabled": "Функция включена",
+    "featureDisabled": "Функция выключена",
+    "featureEnableIssues": "Возникла ошибка при включении функции",
+    "featureDisableIssues": "Возникла ошибка при отключении функции"
+  },
+  "order": {
+    "note": {
+      "designAndPacking": "Дизайн и упаковка:",
+      "engraving": "Гравировка:",
+      "palletDescription": "Описание поддона:",
+      "termsOfDelivery": "Условия доставки:",
+      "additionalTerms": "Дополнительные условия компании Ridex GMBH:",
+      "title": "Дополнительная информация",
+      "deliveryPort": "Порт доставки:",
+      "deliveryTime": "Срок поставки:",
+      "shippingMark": "Отгрузочная маркировка:",
+      "termOfPayment": "Условия оплаты:",
+      "bankInformation": "Банковская информация:",
+      "proformaInvoice": "Счет-проформа:",
+      "factoryInformation": "Заводская информация:"
+    },
+    "termsDeliveryData": {
+      "city": "Город:",
+      "country": "Страна:",
+      "incoterms": "Инкотермс:"
+    },
+    "payData": {
+      "payOnCreated": "Подписание спецификации к заказу: ",
+      "payOnDelivered": "Прибытие на склад хранения (РЦ): ",
+      "payOnPort": "Прибытие в порт назначения:",
+      "payOnProduction": "Оплата по факту готовности: ",
+      "paymentExchangeBl": "Отправка из порта отгрузки:",
+      "paymentOnCompletion": "Оплата по факту реализации товара:",
+      "paymentOnWarehouse": "Отгрузка товара со склада поставщика:"
+    },
+    "deliveryPortTypes": {
+      "air": "Air:",
+      "rail": "Rail:",
+      "truck": "Truck:",
+      "ocean": "Ocean:",
+      "sea+rw": "Sea+Rw:"
+    },
+    "bankInformation": {
+      "swift": "Swift:",
+      "beneficiary": "Получатель:",
+      "iban": "A/C:"
+    },
+    "proformaInvoice": {
+      "additionalTerms": "Дополнительные условия:",
+      "designAndPacking": "Дизайн и упаковка:",
+      "engraving": "Гравировка:",
+      "incoterms": "Инкотермс:"
+    },
+    "factoryInformation": {
+      "name": "Название:",
+      "jurName": "Юридической название:",
+      "vatNumber": "VAT ID (TAX ID):",
+      "legalAddress": "Юридический адрес:",
+      "city": "Город:",
+      "country": "Страна:",
+      "area": "Район:",
+      "phone": "Номер телефона:",
+      "address": "Адрес:",
+      "termsOfDelivery": "Условия доставки:"
+    },
+    "labels": {
+      "buyer": "Покупатель",
+      "piDate": "PI-дата",
+      "piNumber": "PI-номер",
+      "pltTime": "Время выполнения продукции",
+      "shipperExporter": "Экспортер",
+      "days": "Дней",
+      "reason": "Причина",
+      "comment": "Комметарий",
+      "percents": "Проценты",
+      "amount": "Количество"
+    },
+    "confirm": {
+      "exporterMessage": "Вы точно хотите изменить экспортера?",
+      "exporterHeader": "Изменение экспортера",
+      "piMessage": "Вы точно хотите изменить PI {name}?",
+      "piHeader": "Изменение PI {name}",
+      "change": "Изменить",
+      "cancel": "Отменить"
+    },
+    "placeholders": {
+      "total": "Итого",
+      "totalQty": "Итого QTY",
+      "piNumber": "Выберите PI-номер",
+      "piDate": "Выберите дату PI",
+      "pltTime": "Выберите время выполнения продукции",
+      "shipperExporter": "Экспортера не выбран",
+      "percents": "Проценты",
+      "amount": "Количество",
+      "reason": "Выберите причину"
+    },
+    "files": {
+      "title": "Файлы заказов",
+      "other": "Другое",
+      "prepayment": "Оплата",
+      "pi": "Добавленные PI",
+      "generatedPi": "Сгенерированный PI",
+      "deleteHeader": "Подтверждение удаления",
+      "wantDelete": "Вы хотите удалить этот файл?",
+      "successLoad": "Файл {fileName} успешно загружен",
+      "successDelete": "Файл {fileName} удален",
+      "successGenerateLabel": "Сгенерирована этикетка заказа {guid}",
+      "errorGenerateLabel": "Ярлык заказа {guid} не создан",
+      "dragAndDrop": "Выберите или перетащите файл сюда...",
+      "attachFile": "Пожалуйста, прикрепите файл.",
+      "acceptLabel": "Удалить",
+      "rejectLabel": "Отменить",
+      "generatePi": {
+        "header": "Перегенерировать PI?",
+        "message": "Письмо с файлом PI будет отправлено поставщику"
+      },
+      "buttons": {
+        "choose": "Выбрать",
+        "upload": "Загрузить",
+        "cancel": "Отмена",
+        "accept": "Принять",
+        "generateLabels": "Создание ярлыков",
+        "generatePi": "Создание PI"
+      }
+    },
+    "statuses": {
+      "new": "Новый",
+      "draft": "Черновик",
+      "sending": "Отправка письма",
+      "sendingError": "Ошибка отправки",
+      "waitingForApprove": "Ожидает проверки",
+      "waitingForApproveGreen": "Ожидает проверки",
+      "waitingForApproveYellow": "Ожидает проверки",
+      "waitingForApproveRed": "Ожидает проверки",
+      "rejected": "Отклонен",
+      "waitingForProformaInvoice": "Ожидание счета-проформы",
+      "waitingForProformaInvoiceGreen": "Ожидание счета-проформы",
+      "waitingForProformaInvoiceYellow": "Ожидание счета-проформы",
+      "waitingForProformaInvoiceRed": "Ожидание счета-проформы",
+      "proformaInvoiceChecking": "Счет-проформы на проверке",
+      "proformaInvoiceChecked": "Счет-проформы проверен",
+      "prepaymentExpectation": "Ожидается предоплата",
+      "uploadPrepaymentOrder": "Загрузка предоплаты",
+      "production": "В производстве",
+      "productionGreen": "В производстве",
+      "productionYellow": "В производстве",
+      "productionRed": "В производстве",
+      "productionBlack": "В производстве",
+      "rejectedOrder": "Заказ отменен",
+      "executed": "Выполнен",
+      "test": "Тестовый заказ",
+      "planned": "Запланированный заказ",
+      "closed": "Закрыт"
+    },
+    "reasons": {
+      "noResponseFromSupplier": "Нет ответа от поставщика",
+      "articleListHasBeenChanged": "Изменен состав заказа ",
+      "priceChange": "Изменение цены",
+      "changesInMinOrderQuantity": "Изменения в минимальном объеме заказа",
+      "changeOfProductionTerm": "Изменения срока производства",
+      "incorrectLegalInformation": "Некорректная юридическая информация",
+      "lackOfProductionCapacity": "Нехватка производственных мощностей",
+      "otherReason": "Другая причина",
+      "noResponseFromSupplierOrder": "Нет ответа от поставщика",
+      "cancellationOfTheOrder": "Отказ от исполнения заказа",
+      "noArticles": "Отсутствуют артикулы из этого заказа"
+    },
+    "statusesDescription": {
+      "new": "Сформированные AWS/системой пополнения драфты",
+      "sending": "Технический статус, нужен для отслеживания ошибок в отправке писем",
+      "sendingError": "Статус служит для оповещения операциониста о том, что поставщик не получил письмо, и необходимо связаться с ним любым другим способом, чтобы сообщить о том, что в ЛК появился новый драфт.",
+      "waitingForApprove": "Ждем подтверждения заказа от поставщика",
+      "waitingForApproveGreen": "Мы ожидаем от завода принятия предложенного драфта.",
+      "waitingForApproveYellow": "В этот момент на почту поставщика отправляется напоминание о необходимости подтвердить драфт.",
+      "waitingForApproveRed": "Заводу отправляется ещё одно письмо, а на операциониста ставится задача получить от завода подтверждение драфта.",
+      "rejected": "При назначении статуса Операционисту ставится задача связаться с заводом и выяснить причину, по которой он отклонил драфт. В заказах AWS также требуется завести этот статус.",
+      "waitingForProformaInvoice": "Ждем пока поставщик загрузит подписанный PI",
+      "waitingForProformaInvoiceGreen": "Означает, что заводу необходимо скачать предложенный PI, подписать его и загрузить обратно в ЛК. Статус так же бывает 3-х цветов - зеленый, желтый и красный. Логика работы и смены цветов идентична статусу Waiting For Approve.",
+      "waitingForProformaInvoiceYellow": "Заводу отправляется напоминание",
+      "waitingForProformaInvoiceRed": "Заводу отправляется еще одно письмо, а на операциониста ставится задача получить подтверждение драфта",
+      "proformaInvoiceChecking": "Операционист должен проверить приложенный поставщиком PI. В момент присвоения статуса операционисту ставится задача - проверить PI, и предлагается нажать на одну из 2-х кнопок - \"PI в порядке\", или \"Проблемы с PI\". При выборе \"Проблемы с PI\" ставится ещё одна задача - \"Получить верный PI от поставщика\". После его получения операционист загружает верный PI в специальное поле АРМ и нажимает на кнопку \"PI в порядке\"",
+      "proformaInvoiceChecked": "Переходный статус для генерации документов и загружаемых материалов (гравировки и этикеток). На этом статусе происходит проверка на необходимость предоплаты (из карточки завода в AWS).",
+      "prepaymentExpectation": "Статус значит, что ожидается предоплата с нашей стороны. В этом статусе формируется заявка на предоплату в бухгалтерию, в истории ставится отметка о том, что заявка отправлена. Формируется задача операционисту - получить и загрузить платёжку.",
+      "production": "Вместе с назначением статуса отправляется письмо-уведомление о начале работы, в ЛК и в АРМ появляются файлы с этикеткой и гравировкой. Заказ в AWS переводится в статус \"В производстве\".",
+      "uploadPrepaymentOrder": "Получите от бухгалтерии документ предоплаты и загрузите его, чтобы продолжить работу с заказом.",
+      "productionGreen": "Заказ не требует дополнительного вмешательства",
+      "productionYellow": "Обратите внимание на заказ",
+      "productionRed": "Свяжитесь с поставщиком, чтобы узнать дату готовности груза",
+      "productionBlack": "Проблемный заказ",
+      "rejectedOrder": "Заказ был отменен по причине:",
+      "executed": "Заказ выполнен в полном объеме",
+      "test": "Тестовый заказ для внутриннего тестирования",
+      "prepaymentExpectation1": "Вы подтверждаете заявку на предоплату. После этого он будет отправлен в бухгалтерию.",
+      "prepaymentExpectation2": "Номер заказа {orderNumber} требует предоплату {percent}%, суммой = {amount}",
+      "planned": "Forcast загружен. Проверьте данные",
+      "closed": "Заказ выполнен"
+    },
+    "commentBlock": {
+      "rejected": {
+        "openPopupButtonText": "Связался с поставщиком",
+        "popupPlaceholder": "Опишите причину отказа завода выполнить заказ",
+        "popupTheme": "Укажите причины отказа",
+        "popupThemeSelector": "Опишите причину отказа завода выполнить заказ.",
+        "popupCancelTitle": "Отмена",
+        "popupOkTitle": "Подтвердить"
+      }
+    },
+    "statusesScenario": {
+      "new": {
+        "rejected": "Отменить",
+        "popupPlaceholder": "Сообщите, пожалуйста, причину отмены",
+        "popupTheme": "Этим действием вы отмените предложенный вам заказ",
+        "popupCancelTitle": "Продолжить работать",
+        "popupOkTitle": "Отклонить заказ"
+      },
+      "waitingForApprove": {
+        "waitingForProformaInvoiceGreen": "Подтвердить",
+        "rejected": "Отменить",
+        "popupPlaceholder": "Опишите причину, по которой вы отказались выполнить заказ",
+        "popupTheme": "Укажите причины отказа",
+        "popupCancelTitle": "Отменить",
+        "popupWaitingPiTheme": "Вы подтверждаете предложенный вам заказ. Пожалуйста, делайте это только в том случае, если вы готовы завершить его полностью в соответствии с условиями, описанными в нем.",
+        "popupWaitingPiPlaceholder": "По желанию вы можете оставить комментарий",
+        "popupWaitingPiCancelTitle": "Отменить",
+        "popupWaitingPiApproveTitle": "Подтвердите заказ",
+        "popupOkTitle": "Подтвердить"
+      },
+      "sendingError": {
+        "waitingForApproveGreen": "Ожидание счета-проформы",
+        "rejected": "Отменить",
+        "popupPlaceholder": "Опишите проблему",
+        "popupTheme": "Отменить заказ из-за невозможности связаться с поставщиком",
+        "popupCancelTitle": "Отменить",
+        "popupOkTitle": "Отклонить заказ"
+      },
+      "waitingForProformaInvoice": {
+        "proformaInvoiceChecking": "Загрузить PI",
+        "rejected": "Отменить",
+        "popupPlaceholder": "Опишите причину, по которой вы отказались выполнить заказ",
+        "popupTheme": "Укажите причины отказа",
+        "popupCancelTitle": "Продолжить работать",
+        "popupOkTitle": "Подтвердить",
+        "popupPiCheckingPlaceholder": "Укажите причину, по которой вы загружаете PI вместо поставщика",
+        "popupPiCheckingTheme": "Вы собираетесь загрузить PI вместо поставщика. Прикрепите файл и укажите причину, по которой вы это делаете",
+        "popupPiCheckingCancelTitle": "Отменить",
+        "piUploadTitle": "Загрузка счета-проформы"
+      },
+      "proformaInvoiceChecking": {
+        "proformaInvoiceChecked": "Pi правильный",
+        "waitingForProformaInvoiceRed": "Pi неправильный"
+      },
+      "proformaInvoiceChecked": {
+        "prepaymentExpectation": "Ожидание предоплаты"
+      },
+      "prepaymentExpectation": {
+        "production": "Производство"
+      },
+      "uploadPrepaymentOrder": {
+        "rejected": "Отменить драфт",
+        "popupPlaceholder": "Сообщите, пожалуйста, причину отмены вместо поставщика",
+        "popupTheme": "Укажите причины отказа",
+        "popupCancelTitle": "Продолжить работать",
+        "popupOkTitle": "Отменить заказ"
+      },
+      "production": {
+        "rejectedOrder": "Отменить",
+        "executed": "Заказ выполнен",
+        "popupTheme": "Укажите причины отказа",
+        "popupPlaceholder": "Опишите причину, по которой вы отказались выполнить заказ",
+        "popupCancelTitle": "Продолжить работать",
+        "popupOkTitle": "Подтвердить"
+      },
+      "rejectedOrder": {
+        "openPopupButtonText": "Возврат в 'В производстве'",
+        "popupTheme": "Вернуть в статус 'В производстве'?",
+        "popupCancelTitle": "Продолжить работать",
+        "popupOkTitle": "Подтвердить"
+      },
+      "planned": {
+        "new": "Подтвердить",
+        "rejected": "Отменить",
+        "popupPlaceholder": "Опишите причину, по которой вы отказались выполнить заказ",
+        "popupTheme": "Укажите причины отказа",
+        "popupCancelTitle": "Отменить",
+        "popupWaitingPiTheme": "Вы подтверждаете предложенный вам заказ. Пожалуйста, делайте это только в том случае, если вы готовы завершить его полностью в соответствии с условиями, описанными в нем.",
+        "popupWaitingPiPlaceholder": "По желанию вы можете оставить комментарий",
+        "popupWaitingPiCancelTitle": "Отменить",
+        "popupWaitingPiApproveTitle": "Подтвердите заказ",
+        "popupOkTitle": "Подтвердить"
+      },
+      "executed": {
+        "closed": "Заказ закрыт",
+        "popupTheme": "Закрыть заказ?",
+        "popupCancelTitle": "Отменить",
+        "popupOkTitle": "Подтвердить"
+      }
+    },
+    "messages": {
+      "commentSuccess": "Комментарий успешно добавлен",
+      "statusChangeSuccess": "Статус успешно изменен",
+      "fileLoad": "Файл {name} загружен",
+      "copyFactory": "Скопировать наименование поставщика",
+      "copyOrderNumber": "Скопировать номер заказа",
+      "copyPiNumber": "Скопировать pi номер",
+      "copySupplyNumber": "Скопировать номер поставки",
+      "orderHasSupplies": "Невозможно изменить статус заказа на Drafts или Reject, в заказе есть поставки",
+      "orderInSwh": "Невозможно перевести Заказ в статус Closed, потому что артикулы из Заказа находятся в ВСП"
+    },
+    "titles": {
+      "history": "История",
+      "statusHistory": "Статусы",
+      "changesHistory": "Изменения заказа",
+      "changesProductHistory": "Изменения продуктов",
+      "mails": "Письма",
+      "orderNotChanged": "Данные заказа не изменились",
+      "mailsNotSent": "Письма не отправлялись",
+      "productsNotChanged": "Данные продуктов не изменились",
+      "commentModal": "Комментарий",
+      "rollbackStatus": "Откатить статус",
+      "confirmationExecuted": "Подтверждение выполнения",
+      "orderClosingConformation": "Подтверждение закрытия заказа",
+      "attachOrder": "Прикрепить ордер",
+      "moveToProduction": "Переместить в производство",
+      "article": "Артикль {guid}"
+    },
+    "expectation": {
+      "confirm": "Подтвердить заявку",
+      "change": "Изменить условия предоплаты",
+      "cancelChange": "Отменить",
+      "confirmChange": "Подтвердить изменения предоплаты",
+      "confirmDesc": "Вы подтверждаете запрос на предоплату. После этого он будет отправлен в бухгалтерию",
+      "confirmBody": "Для заказа No. {orderNumber} требуется предоплата в размере {percents}%, сумма = {amount}",
+      "changeDesc": "Вы собираетесь изменить условия предоплаты. Убедитесь, что они одобрены поставщиком",
+      "changeBody": "Для заказа No. {orderNumber}, общее количество {orderSum}",
+      "header": "Обнаружена переплата",
+      "message": "Пожалуйста, создайте запрос на оплату через службу поддержки",
+      "acceptLabel": "Подтвердить",
+      "rejectLabel": "Отменить"
+    },
+    "changesKeys": {
+      "max_lead_time": "PLT MAX",
+      "shipper_exporter": "Экспортер",
+      "legal_address": "Юридический адрес",
+      "additional_terms_of_company": "Дополнительный условия",
+      "address": "Адрес",
+      "bank_iban": "IBAN",
+      "bank_recipient": "Получатель",
+      "bank_swift_code": "SWIFT",
+      "city": "Город",
+      "design_and_packing": "Дизайн и упаковка",
+      "engraving": "Гравирока",
+      "general_phone": "Телефон",
+      "incoterm": "Incoterm",
+      "jur_name": "Юридическое имя",
+      "pay_on_created": "Подписание спецификации к заказу",
+      "pay_on_production": "Оплата по факту готовности",
+      "pay_on_delivered": "Отгрузка товара со склада поставщика",
+      "pay_on_port": "Отправка из порта отгрузки",
+      "payment_exchange_bl": "Прибытие в порт назначения",
+      "payment_on_warehouse": "Прибытие на склад хранения (РЦ)",
+      "payment_on_completion": "Оплата по факту реализации товара",
+      "delay_exchange_bl": "Отсрочка прибытия в порт назначения",
+      "delay_on_completion": "Отсрочка платежа после реализации продукции",
+      "delay_on_created": "Отсрочка подписания спецификации к заказу",
+      "delay_on_delivered": "Отсрочка отгрузки товара со склада поставщика",
+      "delay_on_port": "Отсрочка отправки из порта отправления",
+      "delay_on_production": "Отсрочка платежа после готовности",
+      "delay_on_warehouse": "Отсрочка до прибытия на склад хранения",
+      "vat_number": "VAT ID (TAX ID)",
+      "aws_country_id": "Страна (AWS)",
+      "country_name": "Страна",
+      "pi_date": "Дата PI",
+      "pi_number": "Номер PI",
+      "port_of_loadings": "Порт погрузки"
+    },
+    "productsChangesKeys": {
+      "article_id": "Артикль (ID)",
+      "tecdoc_id": "Tecdoc (ID)",
+      "generic_article_id": "Общий артикль (ID)",
+      "brand_no": "Бренд (NO)",
+      "article_no": "Артикль (NO)",
+      "name": "Название",
+      "fid": "FID",
+      "brand_name": "Бренд",
+      "comment": "Комментарий",
+      "emark_number": "Номер маркировки",
+      "emark_country": "Страна маркировки",
+      "minimal_order_quantity": "Минимальный объем заказа",
+      "product_plan_id": "Идентификатор тарифного плана",
+      "category_name_ru": "Название категории (RU)",
+      "category_name_en": "Название категории (EN)",
+      "category_name_de": "Название категории (DE)",
+      "quantity": "Количество",
+      "price_usd": "Цена, USD",
+      "price_eur": "Цена, EUR",
+      "deleted_at": "Артикул был удален"
+    },
+    "mailsKeys": {
+      "factoryNewOrder": "<b>Письмо с новым заказом</b> отправлено",
+      "factoryWaitingOrderConfirmation": "<b>Письмо с подтверждением заказа</b> отправлено",
+      "factoryWaitingOrderApprove": "<b>Письмо о подтверждении заказа</b> отправлено",
+      "factoryPiIncorrect": "<b>Письмо о некорректном PI</b> отправлено",
+      "factoryWaitingPi": "<b>Письмо ожидания счета-проформы</b> отправлено",
+      "factoryPiChecked": "<b>Письмо о проверку счета-проформы</b> отправлено",
+      "factoryProductionStarted": "<b>Письмо о начале производства</b> отправлено",
+      "factoryOrderRejected": "Отправлено <b>письмо об отклонении заказа</b>",
+      "factoryHalfPlt": "На выполнение заказа осталось менее половины PLT",
+      "factoryTimeAlmostGone": "Срок выполнения заказов почти истек",
+      "factoryOrderDetails": "<b>Письмо с деталями заказа</b> отправлено",
+      "factoryPi": "<b>Письмо об изменении PI</b> отправлено",
+      "piChanged": "<b>Письмо об изменении PI</b> отправлено"
+    },
+    "fileStatus": {
+      "order_pi": {
+        "generating": "PI for order {number} are being generated now",
+        "generated": "PI for order {number} generated successfully",
+        "error": "Can`t generate PI for order {number}"
+      },
+      "order_label": {
+        "generating": "Labels for order {number} are being generated now",
+        "generated": "Labels for order {number} generated successfully",
+        "error": "Can`t generate labels for order {number}"
+      }
+    },
+    "changeMessage": "{key} значение изменено с <b>{previousValue}</b> на <b>{currentValue}</b>",
+    "changePortMessage": "{key} '{type}' значение изменено c <b>{previousValue}</b> на <b>{currentValue}</b>",
+    "notFound": "Продукты не найдены.",
+    "editData": "Редактирова данные",
+    "cancelEditData": "Отменить редактирование данных",
+    "saveData": "Сохранить данные",
+    "rollback": {
+      "header": "Изменение статуса",
+      "ok": "Откатить статус",
+      "cancel": "Продолжить работу",
+      "message": "Вы действительно хотите вернутся к предыдущему статусу?"
+    },
+    "returnBack": "Вернутся назад",
+    "errorTitle": "Ошибка при загрузке заказа",
+    "errorDescriptionWithout": "Заказ не найден",
+    "errorDescription": "Заказ с номером: {number} не найден",
+    "deliveryTimeDescription": "В течение {maxLeadTime} календарных дней после утверждения счета-проформы",
+    "palletDescription": "Каждый поддон должен быть усилен уголками жесткости для защиты изделий и устойчивости на судне. При массе брутто поддона более 400 кг необходимо использовать деревянные уголки, при массе поддона менее 400 кг можно использовать обычные уголки жесткости из прочного картона с паллетными этикетками.",
+    "validationError": "Заполните все обязательные поля (подсвечены красным)",
+    "saveDataHeader": "Сохранить данные заказа",
+    "saveDataMessage": "Сохранить данные заказа? В этом случае счет-проформа будет обновлена и отправлена",
+    "saveDataAcceptLabel": "Да",
+    "saveDataRejectLabel": "Нет",
+    "deleteProductMessage": "Вы действительно хотите удалить артикул?",
+    "deleteProductHeader": "Удаление артикула",
+    "dataSaved": "Данные заказа успешно обновлены",
+    "productsSaved": "Артикли заказа успешно обновлены",
+    "productsDeleted": "Артикли успешно удалены",
+    "piGenerated": "Pi заказа успешно сгенерирован",
+    "defermentsLabel": "Отсрочка:"
+  },
+  "orders": {
+    "table": {
+      "supplier": "Поставщик",
+      "order": "Заказ",
+      "piNumber": "PI номер",
+      "piDate": "PI дата",
+      "responsible": "Ответственный",
+      "company": "Компания",
+      "eped": "EPED",
+      "category": "Категория",
+      "articles": "Артикль",
+      "pieces": "Части",
+      "ready": "Готовность",
+      "sum": "Сума",
+      "status": "Статус",
+      "created": "Дата создания"
+    },
+    "titles": {
+      "orders-list": "Заказы",
+      "drafts-list": "Черновики",
+      "planned-list": "Планируется",
+      "order": "Закакз #{number}",
+      "orderDivider": "Заказ",
+      "draft": "Черновик",
+      "planned": "Запланированных заказов",
+      "progress": "{name} в процессе",
+      "attention": "{name} требующие внимания",
+      "delayed": "{name} задерживаются",
+      "good": "{name} в порядке",
+      "closed": "{name} закрыто"
+    },
+    "actions": {
+      "reject": {
+        "popupHeader": "Укажите причины отказа",
+        "popupConfirm": "Подтвердить",
+        "popupCancel": "Отменить",
+        "rejectLabel": "Отменить",
+        "commentPlaceholder": "Опишите причину, по которой вы отказались выполнять заказ"
+      },
+      "new": {
+        "newLabel": "Новый",
+        "leaveMessage": "Выбранные заказы будут изменены на статус \"новый\""
+      },
+      "successMessage": "Статус изменен"
+    },
+    "noFound": "Заказы не найдены.",
+    "loading": "Загрузка заказов. Пожалуйста подождите.",
+    "responsibleChanged": "Ответственный успешно изменен",
+    "leaveMessage": "Измененные данные будут потеряны",
+    "leaveHeader": "Уверены ли вы?",
+    "leaveAccept": "Да, я уверен",
+    "leaveReject": "Отменить",
+    "noOrdersMessage": "заказов в статусе Production нет, показать остальные заказы?",
+    "noOrdersHeader": "Заказы отсутствуют",
+    "noOrdersAccept": "Подтвердить",
+    "noOrdersReject": "Отменить"
+  },
+  "forwarder": {
+    "table": {
+      "name": "Название",
+      "legalAddress": "Адрес",
+      "countries": "Страны",
+      "ports": "Точки посадки",
+      "ways": "Пути доставки",
+      "phone": "Номер телефона",
+      "deletedAt": "Дата удаления"
+    },
+    "noFound": "Экспедиторы не найдены",
+    "loading": "Закгрузка данных экспедиторов. Пожалуйста подождите.",
+    "buttons": {
+      "addForwarder": "Добавить экспедитора",
+      "save": "Сохранить",
+      "cancel": "Отменить",
+      "removeContact": "Удалить контакт",
+      "removeBankInfo": "Удалить информацию",
+      "addPerson": "Добавить",
+      "saveChanges": "Сохранить",
+      "addLegalInfo": "Добавить",
+      "deleted": "Удален",
+      "showDeleted": "Показать удаленные"
+    },
+    "confirmDeletion": {
+      "header": "Удаление экспедитора",
+      "message": "Вы действительно хотите удалить экспедитора?",
+      "acceptLabel": "Удалить",
+      "rejectLabel": "Отменить"
+    },
+    "titles": {
+      "legalInfo": "Юридическая информация",
+      "contactInfo": "Контактная информация",
+      "baseInfo": "Основная информация",
+      "bankDetails": "Банковая информация",
+      "editBaseInfo": "Редактировать основную информацию",
+      "serviceInfo": "Служебная информация",
+      "forwarder": "Экспедиторы",
+      "editForwarder": "Редактирование экспедитора",
+      "createForwarder": "Создание экспедитора"
+    },
+    "info": {
+      "name": "Название",
+      "isActive": "Активный",
+      "reason": "Причина",
+      "reasonComment": "Причина (комментарий)"
+    },
+    "service": {
+      "ways": "Пути доставки",
+      "countries": "Города",
+      "areas": "Области",
+      "ports": "Точка погрузки",
+      "reasonComment": "Причина (комметарий)"
+    },
+    "contact": {
+      "website": "Веб-сайт",
+      "phone": "Номер телефона",
+      "email": "E-mail",
+      "person": {
+        "name": "Имя",
+        "position": "Позиция",
+        "phone": "Номер телефона",
+        "email": "E-mail",
+        "country": "Страна",
+        "isHead": "Главный контакт"
+      }
+    },
+    "legal": {
+      "legalName": "Юридеческой название",
+      "primary": "Главная",
+      "isActive": "Активная",
+      "idLegal": "Юредический ID",
+      "legalAddress": "Юридеческий адрес",
+      "zipCode": "ZIP код",
+      "bank": {
+        "thePayee": "Получатель платежа",
+        "vatId": "Код плательщика НДС",
+        "iban": "IBAN/KontoNr",
+        "swiftCode": "SWIFT-код (BIC)"
+      }
+    },
+    "reasons": {
+      "notEnoughCapacity": "Недостаточно мощностей в регион",
+      "unreasonablyHighPrices": "Неоправданно высокие цены",
+      "companyIsClosed": "Закрытие компании",
+      "other": "Другое"
+    }
+  },
+  "login": {
+    "title": "Private Brands SRM System",
+    "confirm": "Войти",
+    "fields": {
+      "user": "Логин",
+      "password": "Пароль"
+    }
+  },
+  "shipments": {
+    "titles": {
+      "shipments": "Поставки"
+    },
+    "table": {
+      "ways": "Способы доставки",
+      "status": "Статус",
+      "supplier": "Поставщик",
+      "forwarder": "Экспедитор",
+      "incoterm": "Инкотермс",
+      "ports": "Порт погрузки",
+      "weight": "Масса",
+      "volume": "Объем",
+      "tu": "ТЕ",
+      "size": "Размеры",
+      "amount": "Количество TE",
+      "crd": "Дата готовности"
+    },
+    "noFound": "Отгрузки не найдены.",
+    "loading": "Загрузка данных об отгрузках. Пожалуйста подождите.",
+    "buttons": {
+      "new": "Новая отгрузка",
+      "save": "Сохранить",
+      "close": "Закрыть",
+      "moveToActive": "Активные"
+    },
+    "messages": {
+      "activeHeader": "Подтверждения пермещения в активный статус",
+      "activeConfirm": "Вы действительно хотите переместить эту погрузку в активный статус?",
+      "movedToActive": "Отгрузка перемещена в активный статус",
+      "created": "Отгрузка успешно создана",
+      "canceledHeader": "Подтверждения пермещения в отменённый статус",
+      "canceledConfirm": "Вы действительно хотите переместить эту погрузку в отменённый статус?",
+      "movedToCanceled": "Отгрузка перемещена в отмененные"
+    }
+  },
+  "supplier": {
+    "title": "Поставщик: ",
+    "tabs": {
+      "orders": "Список ордеров",
+      "swh": "ВСП",
+      "supplies": "Запасы",
+      "shipments": "Отгрузки"
+    },
+    "table": {
+      "order": "Заказ",
+      "piNumber": "PI номер",
+      "piDate": "PI дата",
+      "created": "Дата создания",
+      "responsible": "Отвественный",
+      "brand": "Бренд",
+      "eped": "EPED",
+      "category": "Бренд",
+      "articles": "Статьи",
+      "pieces": "Куски",
+      "ready": "Готовность",
+      "sum": "Сумма",
+      "status": "Статус"
+    },
+    "innerTable": {
+      "nr": "NR",
+      "description": "Описание",
+      "comment": "Комметарий",
+      "category": "Категория",
+      "brand": "Бренд",
+      "articleNr": "NR Артикль",
+      "fid": "FID",
+      "qty": "QTY, PCS",
+      "priceUsd": "Стоимость, USD",
+      "priceEur": "Стоимость, EUR",
+      "amount": "Количество",
+      "moq": "MOQ",
+      "oem": "OEM",
+      "emn": "E-mark(номер)",
+      "ec": "E-mark(страна)",
+      "pcs": "PCS/BOX"
+    },
+    "swhTable": {
+      "order": "Номер заказа",
+      "article": "Артикль ID",
+      "description": "Название артикля",
+      "category": "Категория",
+      "amount": "Количество",
+      "price": "Цена, USD",
+      "moq": "MOQ",
+      "qty": "QTY/ALL"
+    },
+    "suppliesTable": {
+      "supply": "Поставка #",
+      "shipment": "Отгрузки",
+      "crd": "CRD",
+      "status": "Статус",
+      "photos": "Фотографии",
+      "files": "Файлы",
+      "price": "Цена, usd",
+      "amount": "Количество",
+      "ordersSrm": "Заказы SRM"
+    },
+    "messages": {
+      "deleteSwhProductMessage": "Вы уверены, что хотите удалить артикул?",
+      "deleteSwhProductHeader": "Удаление артикула",
+      "saveDataAcceptLabel": "Да",
+      "saveDataRejectLabel": "Нет",
+      "successfullyDeleteMessage": "Продукт {orderNumber} удален"
+    },
+    "moveToSwh": "Переместить в ВСП",
+    "moveToSwhMessage": "Продукт перемещен в ВСП",
+    "moveToSupplies": "Переместить в поставки",
+    "moveToSuppliesMessage": "Поставка {supplyNumber} создана",
+    "maxQuantity": "Максимально доступное количество продуктов {quantity}",
+    "noFound": "Отгрузки не найдены.",
+    "loading": "Загрузка данных об отгрузках. Пожалуйста подождите.",
+    "reliableMark": "Надежный поставщик"
+  },
+  "directories": {
+    "tab": {
+      "shipments": "Отгрузки",
+      "general": "Общие",
+      "forwarder": "Экспедиторы",
+      "port": "Порт",
+      "featureFlags": "Флаги функций"
+    },
+    "innerTab": {
+      "countries": "Страны",
+      "exporters": "Экспортеры",
+      "ports": "Порты",
+      "ways": "Способы доставки",
+      "reasons": "Причина архивации",
+      "loadingTypes": "Типы загрузки",
+      "transportUnits": "TU Типы",
+      "sizes": "TU Размеры",
+      "statuses": "Статусы отправлений",
+      "featureFlags": "Флаги функций"
+    },
+    "titles": {
+      "directories-general-countries": "Страны",
+      "directories-general-exporters": "Экспортеры",
+      "directories-forwarder-reasons": "Причина архивации",
+      "directories-shipments-items": "Порты",
+      "directories-shipments-ways": "Способы доставки",
+      "directories-shipments-loading-types": "Типы загрузки",
+      "directories-shipments-transport-units": "Транспортные единицы",
+      "directories-shipments-sizes": "Размеры",
+      "directories-shipments-statuses": "Статусы отправлений",
+      "directories-feature-flags-items": "Флаги функций"
+    },
+    "table": {
+      "id": "ID",
+      "country": "Город",
+      "exporter": "Экспортер",
+      "reason": "Причина",
+      "countryName": "Название страны",
+      "port": "Порт",
+      "way": "Способ доставки",
+      "loadingType": "Тип загрузки",
+      "transportUnits": "Транспортные юниты",
+      "size": "Размер",
+      "status": "Статус",
+      "feature": "Функция",
+      "description": "Описание",
+      "active": "Статус активности"
+    },
+    "settings": {
+      "ru": "Русский",
+      "en": "Английский",
+      "light": "Светлая",
+      "dark": "Тёмная"
+    },
+    "labels": {
+      "save": "Сохранить",
+      "name": "Имя",
+      "email": "Почта",
+      "password": "Новый пароль",
+      "mode": "Тема",
+      "language": "Язык"
+    },
+    "buttons": {
+      "newCountry": "Добавить страну",
+      "newExporter": "Добавить экспортера",
+      "newLoadingType": "Добавить тип загрузки",
+      "newTUType": "Добавить TU тип",
+      "newTUSize": "Добавить TU размер",
+      "newStatus": "Добавить статус",
+      "newWay": "Добавить cпособ доставки",
+      "newReason": "Добавить причину"
+    },
+    "settingsButton": "Настройки",
+    "noFound": "Данные не найдены.",
+    "loading": "Загрузка данных. Пожалуйста подождите."
+  },
+  "dashboard": {
+    "orderStatuses": "Статусы заказов",
+    "factoryStatuses": "Статусы заводов",
+    "membersStatuses": "Статусы ответственных",
+    "notAvailable": "Данные не доступны",
+    "orderPerStatuses": "Заказов на статус",
+    "statuses": {
+      "productionGreen": "Низкий",
+      "productionYellow": "Средний",
+      "productionRed": "Высокий",
+      "productionBlack": "Очень высокий"
+    }
+  },
+  "price": {
+    "titles": {
+      "price": "Цены"
+    },
+    "tabs": {
+      "general": "Список прайсов",
+      "create": "Создать прайс"
+    },
+    "buttons": {
+      "save": "Сохранить",
+      "cancel": "Отменить",
+      "add": "Добавить прайс",
+      "delete": "Удалить"
+    },
+    "messages": {
+      "success": "Прайс экспедитора успешно сохранен",
+      "validationError": "Заполните все обязательные поля (подсвечены красным цветом)",
+      "dateChanged": "Релевантные даты успешно изменены",
+      "movedToActive": "Цена экспедитора переведена в активную",
+      "movedToArchive": "Цена экспедитора перемещена в архив"
+    },
+    "labels": {
+      "active": "Активный",
+      "reason": "Причина",
+      "forwarder": "Экспедитор",
+      "way": "Способ доставки",
+      "relevantDates": "Соответствующие даты",
+      "tariff": "Тариф",
+      "loadingType": "Тип загрузки",
+      "reasonComment": "Причина"
+    },
+    "table": {
+      "expense": "Расходы",
+      "currency": "Валюта",
+      "forwarder": "Экспедитор",
+      "ways": "Способ доставки",
+      "tariff": "Тариф",
+      "active": "Статус активности",
+      "relevantDates": "Даты"
+    },
+    "reasons": {
+      "priceIsNotCorrect": "Не правильная цена",
+      "irrelevantDates": "Соответствующий период закончился",
+      "other": "Другое"
+    },
+    "notFound": "Стоимости не найдены",
+    "loading": "Загрузка данных стоимостей. Пожалуйста подождите"
+  },
+  "placeholders": {
+    "way": "Выберите способ доставки",
+    "supplier": "Выберите поставщика",
+    "forwarder": "Выберите экспедитора",
+    "incoterm": "Выберите инкотермс",
+    "portOfLoading": "Выберите порт погрузки",
+    "weight": "Масса",
+    "volume": "Объем",
+    "tu": "Выберите ТЕ",
+    "size": "Выберите размер",
+    "tuAmount": "Количество ТЕ",
+    "date": "Выберите дату",
+    "columns": "Выберите колонки",
+    "search": "Введите запрос",
+    "status": "Выберите статус",
+    "brand": "Выберите бранд",
+    "category": "Выберите категорию",
+    "responsible": "Выберите ответственного",
+    "reason": "Выберите причину",
+    "fromDate": "Выберите начальную дату",
+    "toDate": "Выберите конечную дату",
+    "tariff": "Выберите тариф",
+    "loadingType": "Выберите тип загрузки",
+    "reasonComment": "Напишите причину",
+    "units": "Выберите юниты",
+    "expense": "Выберите расходы",
+    "currency": "Выберите валюту",
+    "dateRelevant": "Select the relevant type"
+  },
+  "errorPage": {
+    "title": "404. Страница не найдена",
+    "description": "Возможно, она была перемещена или Вы неверно указали адрес страницы",
+    "button": "Вернуться на главную"
+  },
+  "logistics": {
+    "tabs": {
+      "shipments": "Поставки",
+      "price": "Цены",
+      "supplies": "Список запасов",
+      "activeShipments": "Active",
+      "preBookingShipments": "Pre-booking"
+    }
+  },
+  "navigation": {
+    "orders": "Заказы",
+    "drafts": "Черновики",
+    "forwarders": "Экспедиторы",
+    "logistics": "Логистика",
+    "settings": "Настройки",
+    "directoriesAndSettings": "Справочник и Настройки"
+  },
+  "supplies": {
+    "titles": {
+      "supply": "Поставка #{number}",
+      "articles": "Список артиклей",
+      "supplies": "Список запасов"
+    },
+    "noFound": "Товар не найден.",
+    "loading": "Загрузка товаров. Пожалуйста, подождите.",
+    "addToSupply": "Добавить в поставку.",
+    "articlesListTable": {
+      "order": "Номер заказа",
+      "article": "Артикль ID",
+      "description": "Название артикля",
+      "category": "Категория ID",
+      "amount": "Количество",
+      "unitPrice": "Цена за единицу",
+      "fid": "FID",
+      "moq": "MOQ"
+    },
+    "suppliesTable": {
+      "supply": "Поставка #",
+      "supplier": "Поставщик",
+      "crd": "Дата готовности",
+      "creationDate": "Дата создания",
+      "totalQty": "Сумма QTY",
+      "totalSku": "Сумма SKU",
+      "indicators": "Индикаторы",
+      "ordersSrm": "Заказы SRM",
+      "status": "Статус"
+    },
+    "messages": {
+      "productDeleteMessage": "Товар успешно удален.",
+      "saveDataAcceptLabel": "Да",
+      "saveDataRejectLabel": "Нет",
+      "deleteProductMessage": "Вы действительно хотите удалить артикул?",
+      "deleteProductHeader": "Удаление артикула",
+      "productAddMessage": "Товары успешно добавлены."
+    }
+  },
+  "supply": {
+    "supplyLinks": {
+      "ordersIncluded": "Заказа включены",
+      "srm": "SRM"
+    },
+    "files": {
+      "title": "Файлы поставки",
+      "ci": "CI",
+      "pl": "PL",
+      "hbl": "HBL",
+      "photo": "Photo",
+      "pay": "Pay",
+      "reliable": "Надежный поставщик. Верификация фото не требуется."
+    },
+    "statusHistory": {
+      "title": "История статусов",
+      "statuses": {
+        "draft": "Черновик",
+        "readyToShip": "Готово к отправке",
+        "canceled": "Отменено",
+        "new": "Новый",
+        "shipApproved": "Поставка одобренна",
+        "onTheWay": "В пути",
+        "inTheWarehouse": "На складе",
+        "onTheShelves": "На полках",
+        "done": "Выполнен"
+      },
+      "descriptions": {
+        "draft": "В поставке есть черновик, аналогичной поставки в AWS нет",
+        "canceled": "Окончательный отрицательный статус",
+        "new": "Поставка полноценная, принята в работу и больше не является черновиком. Аналогичная поставка есть в AWS",
+        "shipApproved": "Privat Brands согласовала поставку и готовность к ее получению",
+        "onTheWay": "Поставка загружена на борт судна и находится в пути",
+        "inTheWarehouse": "Успешное поступление партии товара на склад в полном объеме",
+        "onTheShelves": "Товар распакован и готов к продаже. Все товары из поставки переходят в статус «В наличии для продажи»",
+        "done": "Окончательный положительный статус"
+      },
+      "messages": {
+        "statusChangeSuccess": "Статус успешно изменен"
+      },
+      "statusesScenario": {
+        "canceled": {
+          "button": "Отменить",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCanceledMessage": "Все артикулы вернутся в ВСП. Отменить поставку?",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "new": {
+          "button": "Новый",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "shipApproved": {
+          "button": "Поставка одобренна",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "onTheWay": {
+          "button": "В пути",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "inTheWarehouse": {
+          "button": "На складе",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "onTheShelves": {
+          "button": "На полках",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        },
+        "done": {
+          "button": "Выполнен",
+          "popupHeader": "Переместит в '{status}'",
+          "popupMessage": "Поставка будет перемещена в статус '{status}'",
+          "popupCancel": "Отменить",
+          "popupOk": "Подтвердить"
+        }
+      }
+    },
+    "supplyInfo": {
+      "totalQty": "QTY",
+      "totalSku": "SKU",
+      "payments": "Платежи",
+      "crd": "CRD",
+      "supplyCrdUpdated": "Обновлена дата готовности груза поставки"
+    }
+  },
+  "parsing": {
+    "titles": {
+      "main": "Сравнить файл и заказ",
+      "compare": "Сравнить",
+      "supply": "Создание поставки",
+      "supplyUpdate": "Обновление поставки"
+    },
+    "buttons": {
+      "cancel": "Отменить",
+      "compare": "Сравнить",
+      "downloadCSV": "Загрузить csv файл",
+      "downloadXLSX": "Загрузить xlsx файл",
+      "createSupply": "Создать поставку",
+      "addSupply": "Дабавить артикулы с файла",
+      "replaceProducts": "Заменить артикулы",
+      "addProducts": "Добавить артикулы"
+    },
+    "labels": {
+      "total": "Общая стоимость (пример: AA25)",
+      "firstRow": "Первая строка",
+      "lastRow": "Последняя строка",
+      "oem": "OEM",
+      "articleNo": "Номер продукта",
+      "fid": "FID",
+      "price": "Стоимость",
+      "quantity": "Количество",
+      "orderNo": "Номер заказа",
+      "supplier": "Поставщик",
+      "fileType": "Тип файла"
+    },
+    "placeholders": {
+      "total": "Выберите ячейку общей цены",
+      "firstRow": "Выберите первыю строку",
+      "lastRow": "Выберите последнюю строку",
+      "oem": "Выберите колонку OEM",
+      "articleNo": "Выберите колонку номера продукта",
+      "fid": "Выберите FID колонку",
+      "price": "Выберите колонку с стоимостью",
+      "quantity": "Выберите колонку с количеством",
+      "orderNo": "Выберите колонку с номером заказа",
+      "fileType": "Выберите тип файла"
+    },
+    "table": {
+      "product": "Продукт",
+      "articleNumber": "Номер артикля",
+      "originalOrder": "Оригинальный ордер",
+      "supply": "Поставка {number}",
+      "filesData": "Данные с файла",
+      "file": "Файл {name}",
+      "qty": "QTY",
+      "price": "Стоимость",
+      "fid": "FID",
+      "total": "Полная общая сумма:"
+    },
+    "successMessage": "Поставка упешно создана",
+    "successUpdateMessage": "Поставка успешно обновлена",
+    "errorMessage": "Невозможно создать поставку. Пожалуйста проверьте файл",
+    "errorUpdateMessage": "Невозможно обновить поставку. Пожалуйста проверьте файл",
+    "haveNotDifferences": "Подписанный PI-файл {name} совпадает с заказом {number} в SRM",
+    "haveNotSupplyDifferences": "Подписанный xls-file {name} совпадает с поставкой {number} в SRM",
+    "haveDifferences": "Подписанный PI-файл {name} и заказ {number} в SRM имеют отличия. Подробнее см. ниже",
+    "haveSupplyDifferences": "Подписанный xls-file {name} и поставка {number} в SRM имеют отличия. Подробнее см. ниже",
+    "haveError": "При сравнении PI-файла {name} и заказа {number} в SRM произошла системная ошибка"
+  },
+  "supplierMails": {
+    "title": "Письма поставщиков",
+    "table": {
+      "name": "Название",
+      "id": "ID",
+      "email": "Основной email",
+      "mails": "Письма"
+    },
+    "noFound": "Почта поставщиков не найдена",
+    "messages": {
+      "enabled": "Отправка почты включена",
+      "disabled": "Отправка почты выключена",
+      "enableIssues": "Ошибка включения отправки почты",
+      "disableIssues": "Ошибка выключения отправки почты"
+    }
+  }
+}
